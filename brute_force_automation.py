@@ -1,5 +1,5 @@
 import requests
-url ='https://0a7c00dc045d0a1f83063c84004a0004.web-security-academy.net/login'
+url ='your/url'
 
 usernames_file="/home/kali/Desktop/user_file.txt"
 
@@ -16,4 +16,4 @@ for username in usernames:
                         print("wrong username",username, "worong password", password)
  
                 else:
-                    print("succescc username", username,"password", password)
+                    print("success username", username,"password", password)
